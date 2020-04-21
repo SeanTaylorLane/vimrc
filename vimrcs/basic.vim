@@ -1,4 +1,10 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Sean's Customizations
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set nu rnu
+set smartcase
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer: 
 "       Amir Salihefendic — @amix3k
 "
@@ -270,7 +276,7 @@ set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ 
 " => Editing mappings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Remap VIM 0 to first non-blank character
-" map 0 ^
+map 0 ^
 
 " Move a line of text using ALT+[jk] or Command+[jk] on mac
 nmap <M-j> mz:m+<cr>`z
